@@ -1,0 +1,8 @@
+.header-link {
+  color: inherit;
+}
+
+.header-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
