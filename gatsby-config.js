@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: "Sozo Personal Fitness",
+    description: "Website for Sozo Personal Fitness",
+    author: "Jacob Madsen",
+    phone_number: "(803)-941-7108",
+    email: "sozofitnessgym@gmail.com",
+    address: "230 Columbia Avenue, Chapin 29036",
+    mission_statement: "Mission statement",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

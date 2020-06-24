@@ -1,0 +1,43 @@
+.linkWidget {
+  text-align: center;
+}
+
+.linkWidget:hover img {
+  filter: brightness(85%);
+}
+
+.linkWidget:hover p {
+  color: rgb(212, 12, 21);
+}
+
+.linkWidget-img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.5s all ease;
+  display: inline-block;
+}
+
+.linkWidget-link {
+  color: black;
+}
+
+.linkWidget-link:hover {
+  text-decoration: none;
+}
+
+.linkWidget-caption {
+  display: inline-block;
+  letter-spacing: 0.02rem;
+  padding-top: 0.8rem;
+  width: 20vw;
+  font-size: calc(4px + 1.2vw);
+  transition: 0.5s all ease;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.linkWidget-caption:hover .linkWidget-img {
+  filter: brightness(90%);
+}

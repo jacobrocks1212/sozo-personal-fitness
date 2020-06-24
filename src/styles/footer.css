@@ -1,0 +1,16 @@
+.footer {
+  padding: 0.5rem;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(253, 206, 208),
+    rgba(253, 206, 208, 0)
+  );
+
+  max-width: 85vw;
+}
+
+.footer-text {
+  margin: 0.1rem;
+  font-size: small;
+}
