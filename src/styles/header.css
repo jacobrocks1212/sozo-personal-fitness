@@ -7,7 +7,7 @@
 }
 
 .header-row {
-  width: 100vw;
+  width: 98vw;
 }
 
 .header-navbar {
@@ -55,11 +55,10 @@
   font-size: calc(28px + 2.2vw);
   align-self: center;
   padding-left: 1rem;
-  padding-top: 0.3rem;
+  padding-top: 1rem;
   letter-spacing: 0.08rem;
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  font-style: italic;
 }
 
 .header-navbar-container {

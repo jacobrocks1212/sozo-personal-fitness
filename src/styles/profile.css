@@ -1,0 +1,24 @@
+.profile {
+  text-align: center;
+}
+
+.profile-bio-container {
+}
+
+.profile-bio {
+  display: inline-block;
+  padding-top: 30%;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: calc(12px + 0.5vw);
+}
+
+.profile-img-container {
+}
+
+.profile-img {
+  display: inline-block;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+}

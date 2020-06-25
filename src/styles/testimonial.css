@@ -1,0 +1,43 @@
+.testimonial {
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-img {
+  display: inline-block;
+  width: 20vw;
+  height: 15vw;
+}
+
+.testimonial-text-container {
+}
+
+.testimonial-message {
+  position: absolute;
+  top: 4%;
+  left: 17%;
+  /* display: inline-block; */
+  text-align: left;
+  width: 15vw;
+  height: 10vw;
+  color: black;
+
+  font-size: 1.5vw;
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+}
+
+.testimonial-name {
+  position: absolute;
+  top: 64%;
+  left: 0%;
+  /* display: inline-block; */
+  text-align: right;
+  width: 15vw;
+  height: 10vw;
+  /* color: black; */
+
+  font-size: 1.5vw;
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+}
