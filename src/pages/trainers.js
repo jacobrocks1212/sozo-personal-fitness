@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { Col, Row, Container, Button } from "reactstrap"
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Profile from "../components/profile"
 import ProfileMirrored from "../components/profileMirrored"
@@ -22,6 +23,7 @@ const TrainersPage = () => {
   `)
   return (
     <Layout>
+      <SEO title="Trainers" />
       <div className="trainers">
         <Container className="trainers-profile-1-container">
           <Row>

@@ -68,7 +68,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   )
 }
 

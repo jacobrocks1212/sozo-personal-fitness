@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { Col, Row, Container, Button } from "reactstrap"
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Profile from "../components/profile"
 import Testimonial from "../components/testimonial"
@@ -37,6 +38,7 @@ const MissionPage = () => {
   `)
   return (
     <Layout>
+      <SEO title="Mission" />
       <div className="mission">
         <Profile
           className="mission-profile"

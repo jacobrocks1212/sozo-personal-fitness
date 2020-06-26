@@ -6,6 +6,7 @@
 }
 
 .profile-bio {
+  padding-top: 1rem;
   display: inline-block;
   text-align: left;
   font-family: "Lato", sans-serif;

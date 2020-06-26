@@ -1,0 +1,17 @@
+.contactForm-info {
+  font-size: calc(7px + 1vw);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
+
+.contactForm-button {
+  background-color: rgb(212, 12, 21);
+  transition: 0.5s all ease;
+  border: none;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.05);
+}
+
+.contactForm-button:hover {
+  background-color: rgb(177, 12, 20);
+}
