@@ -7,6 +7,7 @@ import Testimonial from "../components/testimonial"
 import "../styles/mission.css"
 
 import kara_img from "../images/harry.jpg"
+import alt_gym_img from "../images/alt-gym.jpg"
 
 const MissionPage = () => {
   const testimonials = [
@@ -73,6 +74,7 @@ const MissionPage = () => {
         </div>
         <div className="mission-alt">
           <p className="mission-alt-title">Looking For Something Bigger?</p>
+          <img className="mission-alt-img" src={alt_gym_img} />
           <Button
             href="https://www.sozofitnessgym.com/"
             target="_blank"

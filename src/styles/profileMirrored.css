@@ -1,11 +1,11 @@
-.profile {
+.profileMirrored {
   text-align: center;
 }
 
-.profile-bio-container {
+.profileMirrored-bio-container {
 }
 
-.profile-bio {
+.profileMirrored-bio {
   display: inline-block;
   text-align: left;
   font-family: "Lato", sans-serif;
@@ -14,10 +14,10 @@
   color: rgb(61, 61, 61);
 }
 
-.profile-img-container {
+.profileMirrored-img-container {
 }
 
-.profile-img {
+.profileMirrored-img {
   display: inline-block;
   width: 30vw;
   height: 30vw;

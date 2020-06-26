@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jacob Madsen <jacobmadsen12321@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "env-cmd": "^10.1.0",
