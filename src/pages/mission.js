@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Col, Row, Container } from "reactstrap"
+import { Col, Row, Container, Button } from "reactstrap"
 import Layout from "../components/layout"
 import Profile from "../components/profile"
 import Testimonial from "../components/testimonial"
@@ -43,6 +43,11 @@ const MissionPage = () => {
           bio={data.site.siteMetadata.mission_statement}
         />
         <div className="mission-testimonials">
+          <div className="mission-testimonials-title-container">
+            <p className="mission-testimonials-title">
+              Reviews From Our Clients
+            </p>
+          </div>
           <Container>
             <Row>
               <Col>
@@ -65,6 +70,16 @@ const MissionPage = () => {
               </Col>
             </Row>
           </Container>
+        </div>
+        <div className="mission-alt">
+          <p className="mission-alt-title">Looking For Something Bigger?</p>
+          <Button
+            href="https://www.sozofitnessgym.com/"
+            target="_blank"
+            className="mission-alt-subtitle-container"
+          >
+            <p className="mission-alt-subtitle">Visit our other location</p>
+          </Button>
         </div>
       </div>
     </Layout>

@@ -7,6 +7,7 @@ const Testimonial = props => {
   return (
     <div className="testimonial">
       <img className="testimonial-img" src={bubble} />
+      <div className="testimonial-shadow"></div>
       <div className="testimonial-text-container">
         <p className="testimonial-message">{props.message}</p>
         <p className="testimonial-name">-{props.name}</p>
