@@ -7,14 +7,47 @@ import Profile from "../components/profile"
 import Testimonial from "../components/testimonial"
 import "../styles/mission.css"
 
-import kara_img from "../images/harry.jpg"
+import mission_img from "../images/mission-pic.jpg"
 import alt_gym_img from "../images/alt-gym.jpg"
 
 const MissionPage = () => {
   const testimonials = [
-    ["Stacey", "The best gym in Chapin. I love Sozo!"],
-    ["Bruce", "I love this place! Great trainers!"],
-    ["Wendy", "Can't recommend Sozo enough. Amazing people all around."],
+    [
+      "B. Westmorland",
+      "I can't say enough great things about Sozo! They are truly a Godsend!",
+    ],
+    [
+      "J. Bryant",
+      "Love working out with Stacey. She’s very positive and I look forward to my sessions.",
+    ],
+    [
+      "D. Smola",
+      "The trainers are there to make a difference in your life. They really care. Highly recommend Sozo Personal Fitness!",
+    ],
+    [
+      "C. Niehe",
+      "One on one fitness training at it's best! Great trainers! Personalized service! Amazing results! What are you waiting for?",
+    ],
+    [
+      "M. Morris",
+      "Kara and the team are amazing! They worked hard to help my daughter get back to her favorite sports after an accident.",
+    ],
+    [
+      "A. Dupont",
+      "No quick gimmicks here. You learn how to exercise in a way that is sustainable for you in the long term.",
+    ],
+    [
+      "C. Hanna",
+      "Kara and her team are absolutely amazing! I actually look forward to my workouts and arrange my schedule not to miss any!",
+    ],
+    [
+      "D. Hipp",
+      "I would highly recommend for anyone that lives in the area. Very upbeat and pleasant environment!",
+    ],
+    [
+      "A. Ward",
+      "I can honestly say I’ve never been in a better gym facility with a more friendly, caring and knowledgeable staff.",
+    ],
   ]
 
   const ranIndex1 = Math.floor(Math.random() * testimonials.length)
@@ -32,6 +65,7 @@ const MissionPage = () => {
       site {
         siteMetadata {
           mission_statement
+          alt_gym_caption
         }
       }
     }
@@ -42,7 +76,7 @@ const MissionPage = () => {
       <div className="mission">
         <Profile
           className="mission-profile"
-          img_src={kara_img}
+          img_src={mission_img}
           bio={data.site.siteMetadata.mission_statement}
         />
         <div className="mission-testimonials">
@@ -77,6 +111,15 @@ const MissionPage = () => {
         <div className="mission-alt">
           <p className="mission-alt-title">Looking For Something Bigger?</p>
           <img className="mission-alt-img" src={alt_gym_img} />
+          <Container>
+            <Row>
+              <Col>
+                <p className="mission-alt-caption">
+                  {data.site.siteMetadata.alt_gym_caption}
+                </p>
+              </Col>
+            </Row>
+          </Container>
           <Button
             href="https://www.sozofitnessgym.com/"
             target="_blank"

@@ -7,7 +7,7 @@ import Profile from "../components/profile"
 import ProfileMirrored from "../components/profileMirrored"
 import "../styles/trainers.css"
 
-import kara_img from "../images/harry.jpg"
+import kara_img from "../images/kara-trainer.jpg"
 import stacey_img from "../images/stacey.jpeg"
 
 const TrainersPage = () => {

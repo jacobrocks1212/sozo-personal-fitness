@@ -6,7 +6,9 @@ import LinkWidget from "../components/linkWidget"
 import "../styles/index.css"
 
 import gym_img from "../images/gym.jpg"
-import img1 from "../images/harry.jpg"
+import img1 from "../images/mission-pic-2.jpg"
+import img2 from "../images/trainers-pic.jpg"
+import img3 from "../images/contact-pic.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -31,13 +33,13 @@ const IndexPage = () => (
           </Col>
           <Col>
             <LinkWidget
-              img_src={img1}
+              img_src={img2}
               caption="Meet The Trainers"
               link="/trainers"
             />
           </Col>
           <Col>
-            <LinkWidget img_src={img1} caption="Get In Touch" link="/contact" />
+            <LinkWidget img_src={img3} caption="Get In Touch" link="/contact" />
           </Col>
         </Row>
       </Container>
