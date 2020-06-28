@@ -17,9 +17,8 @@ const IndexPage = () => (
       <img className="index-img" src={gym_img} alt="gym" />
       <div className="index-caption-container">
         <p className="index-caption">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ante
-          ornare, interdum orci sit amet, euismod nunc. Mauris maximus purus eu
-          semper porta.
+          Private, affordable, customized workouts for all fitness levels. No
+          memberships. Lots of personal attention.
         </p>
       </div>
       <Container className="index-widgets-container">
