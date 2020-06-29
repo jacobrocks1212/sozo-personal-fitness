@@ -38,7 +38,7 @@ const MissionPage = () => {
     ],
     [
       "C. Hanna",
-      "Kara and her team are absolutely amazing! I actually look forward to my workouts and arrange my schedule not to miss any!",
+      "Kara and her team are absolutely amazing! I look forward to my workouts and arrange my schedule not to miss any!",
     ],
     [
       "D. Hipp",
