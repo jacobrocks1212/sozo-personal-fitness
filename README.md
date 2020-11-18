@@ -1,1 +1,1 @@
-[sozopersonalfitness.surge.sh](sozopersonalfitness.surge.sh)
+[sozopersonalfitness.surge.sh](https://sozopersonalfitness.surge.sh)
